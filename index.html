@@ -56,7 +56,50 @@
             max-width: 300px; /* Resize the image */
             height: auto;
             border-radius: 8px;
-        }        footer {
+        }
+        /* Popup Menu Styles */
+        .sidenav {
+            height: 100%; 
+            width: 0; 
+            position: fixed; 
+            z-index: 1; 
+            top: 0; 
+            left: 0;
+            background-color: #444; 
+            overflow-x: hidden; 
+            transition: 0.5s; 
+            padding-top: 60px;
+        }
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidenav a:hover {
+            background-color: #555;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        #menu-btn {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            color: #fff;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
             background-color: #333;
             color: #fff;
             text-align: center;
@@ -106,7 +149,7 @@
 
     <section id="papers-to-be-discussed">
         <h2>Papers to be Discussed</h2>
-        <p>Here you'll find a list of papers scheduled for discussion in future meetings.</p>
+        <p>Here you&#39 ll find a list of papers scheduled for discussion in future meetings.</p>
     </section>
 
     <section id="background-material">
@@ -117,5 +160,17 @@
     <footer>
         <p>&copy; 2024 Quantum Computing Journal Club</p>
     </footer>
+
+    <!-- JavaScript for Menu -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
 </body>
 </html>
