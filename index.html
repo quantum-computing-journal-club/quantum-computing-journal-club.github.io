@@ -12,7 +12,7 @@
             background-color: #f5f5f5;
         }
         header {
-            background-color: #333;
+            background-color: #fcba03;;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -32,6 +32,11 @@
         nav a:hover {
             background-color: #555;
         }
+        .container {
+            max-width: 1200px; /* Maximum width of the page */
+            margin: 0 auto;
+            padding: 20px;
+        }
         section {
             padding: 20px;
             margin: 20px;
@@ -39,14 +44,19 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 20px auto;
-            border-radius: 8px;
+        .welcome-content {
+            display: flex;
+            align-items: flex-start;
         }
-        footer {
+        .welcome-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .welcome-image img {
+            max-width: 300px; /* Resize the image */
+            height: auto;
+            border-radius: 8px;
+        }        footer {
             background-color: #333;
             color: #fff;
             text-align: center;
@@ -72,15 +82,16 @@
 
     <section id="welcome">
         <h2>Welcome</h2>
-        <img src="img/welcome.jpeg" alt="Quantum Computing Image">
-        <p>This is a journal club that seeks to learn and discuss modern advancements in the field of quantum computing, both from a theoretical stand point than from a more experimental point of view.
+        <div class="welcome-content">
+            <div class="welcome-text">
+                <p>This is a journal club that seeks to learn and discuss modern advancements in the field of quantum computing, both from a theoretical stand point than from a more experimental point of view.</p>
 
-          in the understandings of so-called generalized symmetries or higher-form symmetries, and their consequences in condensed matter systems. These are symmetries that act on extended objects, i.e., strings or membranes. While the literature on this topic originates in the high-energy community, it has recently (in the past few years) become apparent that they play an important role in condensed matter physics as well.</p>
-        <p>Indeed, one might say that we are in the midst of a renaissance in our understanding of symmetries. As one example, by extending Landau's paradigm of symmetry breaking to include higher-form symmetries, many "beyond-Landau" phases (such as topological phases) may be classified by spontaneously broken higher-form symmetries.</p>
-
-        <p>The goal of this club is to explore new computational paradigms, new implementations ...; depending on the topic prior knowledge might or might not be expected, for more see <a href="#background-material">Background Material</a> </p>
-        <p><strong>Organized by <a href= "mailto: gcemin@pks.mpg.de"> Giovanni Cemin </a>.</strong><br>
-        Contact: ktchung [at] pks.mpg.de</p>
+                <p>The goal of this club is to explore new computational paradigms, new implementations ...; depending on the topic prior knowledge might or might not be expected, for more see <a href="#background-material">Background Material</a> </p>
+                <p><strong>Organized by <a href= "mailto: gcemin@pks.mpg.de"> Giovanni Cemin </a>.</strong><br>
+            </div>
+            <div class="welcome-image">
+                <img src="img/welcome.jpeg" alt="Quantum Computing Image">
+            </div>
     </section>
 
     <section id="scheduled-speakers">
