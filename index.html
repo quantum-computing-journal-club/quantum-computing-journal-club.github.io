@@ -1,192 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantum Computing Journal Club</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        header {
-            background-color: #fcba03;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            transition: padding 0.3s ease, font-size 0.3s ease;
-        }
-        header.shrink {
-            padding: 10px;
-            font-size: 18px;
-        }
-        #menu-btn {
-            font-size: 30px;
-            cursor: pointer;
-            color: #fff;
-            padding: 10px;
-            position: absolute;
-            left: 20px;
-            background-color: transparent;
-            border: none;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 100px 20px 20px 20px;
-        }
-        section {
-            padding: 20px;
-            margin: 20px 0;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .welcome-content {
-            display: flex;
-            align-items: flex-start;
-        }
-        .welcome-text {
-            flex: 1;
-            margin-right: 20px;
-        }
-        .welcome-image img {
-            max-width: 300px;
-            height: auto;
-            border-radius: 8px;
-        }
-        /* Popup Menu Styles */
-        .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 2000;
-            top: 0;
-            left: 0;
-            background-color: #666; /* Lighter gray */
-            overflow-x: hidden;
-            transition: width 0.5s ease;
-            padding-top: 60px;
-            white-space: nowrap; /* Prevent text wrapping */
-        }
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 18px;
-            color: #fff;
-            display: block;
-            transition: background-color 0.3s;
-        }
-        .sidenav a:hover {
-            background-color: #777; /* Slightly darker on hover */
-        }
-        .overlay {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 1500;
-            display: none;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            bottom: 0;
-            width: 100%;
-            position: relative;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Computing Journal Club</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
 </head>
 <body>
-    <header id="header">
-        <button id="menu-btn" onclick="openNav()">☰</button>
-        <h1 style="margin: 0;">Quantum Computing Journal Club</h1>
-    </header>
+  <header id="header">
+    <button id="menu-btn" onclick="openNav()">☰</button>
+    <h1 style="margin: 0;">Quantum Computing Journal Club</h1>
+  </header>
 
-    <div id="mySidenav" class="sidenav">
-        <a href="#welcome" onclick="closeNav()">Welcome</a>
-        <a href="#scheduled-speakers" onclick="closeNav()">Scheduled Speakers</a>
-        <a href="#past-meetings" onclick="closeNav()">Past Meetings</a>
-        <a href="#papers-to-be-discussed" onclick="closeNav()">Papers to be Discussed</a>
-        <a href="#background-material" onclick="closeNav()">Background Material</a>
-    </div>
+  <!-- Side Navigation -->
+  <div id="mySidenav" class="sidenav">
+    <a href="#welcome" onclick="closeNav()">Welcome</a>
+    <a href="#scheduled-speakers" onclick="closeNav()">Scheduled Speakers</a>
+    <a href="#meetings-vault" onclick="closeNav()">Past Meetings</a>
+    <a href="#papers-to-be-discussed" onclick="closeNav()">Papers to be Discussed</a>
+    <a href="#background-material" onclick="closeNav()">Background Material</a>
+  </div>
 
-    <div id="overlay" class="overlay" onclick="closeNav()"></div>
+  <!-- Dark Overlay when Menu is Open -->
+  <div id="overlay" class="overlay" onclick="closeNav()"></div>
 
-    <div class="container">
-        <section id="welcome">
-            <h2>Welcome</h2>
-            <div class="welcome-content">
-                <div class="welcome-text">
-                    <p>This is a journal club that seeks to learn and discuss modern advancements in the field of quantum computing, both from a theoretical standpoint than from a more experimental point of view.</p>
+  <!-- Main Content -->
+  <div class="container">
+    <section id="welcome">
+      <h2>Welcome!</h2>
+      <div class="welcome-content">
+        <div class="welcome-text">
+          <p>This journal club is dedicated to presenting and discussing
+            the latest advancements in the field of quantum computing,
+            both from theoretical and experimental perspectives.
+            The idea of quantum computation is not new. It dates back to the
+            1980s physicists faced an exponential increase in overhead when simulating
+            quantum dynamics, and prompted Yuri Manin and Richard Feynman to independently
+            suggest that a hardware capable of directly exploit quantum phenomena, might
+            be more efficient. In the following years, many
+            <a href="https://en.wikipedia.org/wiki/Quantum_algorithm">quantum
+            algorithms</a> has been proposed, for example
+            <a href="https://en.wikipedia.org/wiki/Deutsch%27s_algorithm">Deutsch's algorithm</a> in 1985
+            or <a href="https://en.wikipedia.org/wiki/Simon%27s_problem">Simon's algorithm</a> in 1994.
+            These algorithms don't solve practical problems, but demonstrate the
+            superiority that one could gain by exploiting quantum properties as superposition.
+            A more famous and relevant algorithm is
+            <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">Shor's algorithm</a>, proposed
+            back in 1994 by Peter Shor, that breaks the widely used RSA encryption protocols.
+            </p>
 
-                    <p>The goal of this club is to explore new computational paradigms, new implementations ...; depending on the topic prior knowledge might or might not be expected, for more see <a href="#background-material">Background Material</a>.</p>
-                    <p><strong>Organized by <a href="mailto:gcemin@pks.mpg.de">Giovanni Cemin</a>.</strong><br></p>
-                </div>
-                <div class="welcome-image">
-                    <img src="img/welcome.jpeg" alt="Quantum Computing Image">
-                </div>
-            </div>
-        </section>
+           <p>Since then, the field of quantum computing has evolved through an extensive
+             theoretical research. However, only in
+            recent years the technological advancements enabled reliable experimental
+            implementations, bringing us closer (although still very, very, very, very far
+            from a sufficient amount of reliable error-corrected qubits) to the
+            practical realization of quantum computers.</p>
+          <p>The goal of this journal club is to explore new computational
+            paradigms, new implementations, and more. Depending on the topic, prior knowledge
+            might or might not be expected.
+            For more, see <a href="#background-material">Background Material</a>.</p>
+          <p><strong>Organized by <a href="mailto:gcemin@pks.mpg.de">Giovanni Cemin</a>.</strong></p>
+        </div>
+        <div class="welcome-image">
+          <img src="img/welcome.jpeg" alt="Quantum Computing Image">
+        </div>
+      </div>
 
-        <section id="scheduled-speakers">
-            <h2>Scheduled Speakers</h2>
-            <p>Details about upcoming speakers will be posted here.</p>
-        </section>
+      <h3>Mailing List</h3>
+      If you are member of MPI-PKS, you can sign up for the mailing list <a href="https://lists.pks.mpg.de/mailman3/postorius/lists/quantum_computing_journal_club.lists.pks.mpg.de/">here</a>.
+      Otherwise contact Giovanni.
 
-        <section id="past-meetings">
-            <h2>Past Meetings</h2>
-            <p>Summaries and recordings of past meetings can be found here.</p>
-        </section>
+      <h3>Format</h3>
+      We meet every <strong>Wednesdays at 13:00</strong> (Dresden local time) in <strong>Room 2A1</strong> at MPI-PKS.
+      If you are not in Dresden and your don't want to miss out all the fun, meetings are streamed on Zoom.
+      An email announcement is sent before each session with the paper, presenter, Zoom link
+      and any changes to the meeting room.
+    </section>
 
-        <section id="papers-to-be-discussed">
-            <h2>Papers to be Discussed</h2>
-            <p>Here you'll find a list of papers scheduled for discussion in future meetings.</p>
-        </section>
+    <section id="scheduled-speakers">
+      <h2>Scheduled Speakers</h2>
+      <p>Details about upcoming speakers will be posted here.</p>
+      <ul id="scheduled-speakers-input"></ul> <!-- Placeholder for dynamic content -->
+    </section>
 
-        <section id="background-material">
-            <h2>Background Material</h2>
-            <p>Additional reading and resources on quantum computing can be found here.</p>
-        </section>
-    </div>
+    <section id="meetings-vault">
+      <h2>Meetings Vault</h2>
+      <p>List of past meetings:</p>
+      <ul id="meetings-vault-input"></ul> <!-- Placeholder for dynamic content -->
+    </section>
 
-    <footer>
-        <p>&copy; 2024 Quantum Computing Journal Club</p>
-    </footer>
+    <section id="papers-to-be-discussed">
+      <h2>Papers to be Discussed</h2>
+      <p>Here is a list of papers and preprints for future meetings.</p>
+        <ul id="papers-list">
+            <li>
+              <a href="https://arxiv.org/pdf/2407.18490" target="_blank">Fast and Parallelizable Logical Computation with Homological Product Codes</a>
+              <ul>
+                <li>Authors: Qian Xu, Hengyun Zhou, Guo Zheng, Dolev Bluvstein, J. Pablo Bonilla Ataides, Mikhail D. Lukin, Liang Jiang1</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://arxiv.org/pdf/2407.13826" target="_blank">Designing fault-tolerant circuits using detector error models</a>
+              <ul>
+                <li>Authors: Peter-Jan H. S. Derks, Alex Townsend-Teague, Ansgar G. Burchards, Jens Eisert</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://inspirehep.net/literature/2713672" target="_blank">The Physics of (good) LDPC Codes I. Gauging and dualities</a>
+              <ul>
+                <li>Authors: Tibor Rakovszky, Vedika Khemani</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://arxiv.org/pdf/2311.14592" target="_blank">Chaotic fluctuations in a universal set of transmon qubit gates</a>
+              <ul>
+                <li>Authors: Daniel Basilewitsch, Simon-Dominik Borner, Christoph Berke, Alexander Altland, Simon Trebst, Christiane P. Koch</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://arxiv.org/abs/2405.21019" target="_blank">Quantum quench dynamics as a shortcut to adiabaticity</a>
+              <ul>
+                <li>Authors: Alexander Lukin, Benjamin F. Schiffer, Boris Braverman, Sergio H. Cantu, Florian Huber, Alexei Bylinskii, Jesse Amato-Grill, Nishad Maskara, Madelyn Cain, Dominik S. Wild, Rhine Samajdar, Mikhail D. Lukin</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.030601" target="_blank">Candidate for a Passively Protected Quantum Memory in Two Dimensions</a>
+              <ul>
+                <li>Authors: Simon Lieu, Yu-Jie Liu, and Alexey V. Gorshkov</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://arxiv.org/abs/2405.21019" target="_blank">Quantum quench dynamics as a shortcut to adiabaticity</a>
+              <ul>
+                <li>Authors: Alexander Lukin, Benjamin F. Schiffer, Boris Braverman, Sergio H. Cantu, Florian Huber, Alexei Bylinskii, Jesse Amato-Grill, Nishad Maskara, Madelyn Cain, Dominik S. Wild, Rhine Samajdar, Mikhail D. Lukin</li>
+              </ul>
+            </li>
+          </ul>
+    </section>
 
-    <!-- JavaScript for Menu and Scrolling -->
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("overlay").style.display = "block"; // Show overlay
-        }
+    <section id="background-material">
+      <h2>Background Material</h2>
+      <p>Additional reading and resources on quantum computing can be found here.</p>
+    </section>
+  </div>
 
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("overlay").style.display = "none"; // Hide overlay
-        }
+  <footer>
+    <p>&copy; 2024 Quantum Computing Journal Club</p>
+  </footer>
 
-        window.onscroll = function() {
-            const header = document.getElementById("header");
-            if (window.pageYOffset > 50) {
-                header.classList.add("shrink");
-            } else {
-                header.classList.remove("shrink");
-            }
-        };
-    </script>
+  <script src="script.js"></script> <!-- Link to JavaScript file -->
 </body>
 </html>

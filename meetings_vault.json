@@ -1,0 +1,189 @@
+[
+    {
+        "date": "04 Sep 2024",
+        "speaker": "Marin Bukov",
+        "description" : "Introduction to GKP codes.",
+        "paper": {
+            "title": "Quantum Error Correction with the Gottesman-Kitaev-Preskill Code",
+            "link": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020101"
+        },
+        "authors": ["Arne L. Grimsmo", "Shruti Puri"],
+        "tags": [],
+        "attachments": [
+            {
+                "path": "attachments/GKP-codes.pdf",
+                "name": "GKP codes notes"
+            }
+        ]
+    },
+    {
+        "date": "12 Apr 2023",
+        "speaker": "Adam McRoberts",
+        "paper": {
+            "title": "Diagnostics of mixed-state topological order and breakdown of quantum memory",
+            "link": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.020343"
+        },
+        "authors": ["Ruihua Fan", "Yimu Bao", "Ehud Altman", "Ashvin Vishwanath"],
+        "tags": []
+    },
+    {
+        "date": "05 Apr 2023",
+        "speaker": "Marin Bukov",
+        "paper": {
+            "title": "Topological Order from Measurements and Feed-Forward on a Trapped Ion Quantum Computer",
+            "link": "https://www.nature.com/articles/s42005-024-01698-3"
+        },
+        "authors": ["Mohsin Iqbal", "Nathanan Tantivasadakarn", "Thomas M. Gatterman", "Justin A. Gerber", "Kevin Gilmore", "Dan Gresh", "Aaron Hankin", "Nathan Hewitt", "Chandler V. Horst", "Mitchell Matheny", "Tanner Mengle", "Brian Neyenhuis", "Ashvin Vishwanath", "Michael Foss-Feig", "Ruben Verresen", "Henrik Dreyer"],
+        "tags": []
+    },
+    {
+        "date": "15 Mar 2023",
+        "speaker": "Pranay Patil",
+        "paper": {
+            "title": "Unbiasing fermionic quantum Monte Carlo with a quantum computer",
+            "link": "https://www.nature.com/articles/s41586-021-04351-z"
+        },
+        "authors": ["William J. Huggins", "Bryan A. O’Gorman", "Nicholas C. Rubin", "David R. Reichman", "Ryan Babbush", "Joonho Lee"],
+        "tags": []
+    },
+    {
+        "date": "01 Mar 2023",
+        "speaker": "Paul Schindler",
+        "paper": {
+            "title": "Real-time quantum error correction beyond break-even",
+            "link": "https://www.nature.com/articles/s41586-023-05782-6"
+        },
+        "authors": ["V. V. Sivak", "A. Eickbusch", "B. Royer", "S. Singh", "I. Tsioutsios", "S. Ganjam", "A. Miano", "B. L. Brock", "A. Z. Ding", "L. Frunzio", "S. M. Girvin", "R. J. Schoelkopf", "M. H. Devoret"],
+        "tags": []
+    },
+    {
+        "date": "08 Feb 2023",
+        "speaker": "Michael Rampp",
+        "paper": {
+            "title": "Entanglement phase diagrams from partial transpose moments",
+            "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.012422"
+        },
+        "authors": ["Jose Carrasco", "Matteo Votto", "Vittorio Vitale", "Christian Kokail", "Antoine Neven", "Peter Zoller", "Benoît Vermersch", "Barbara Kraus"],
+        "tags": []
+    },
+    {
+        "date": "01 Feb 2023",
+        "speaker": "Dominik Hahn",
+        "paper": {
+            "title": "Observation of measurement-induced quantum phases in a trapped-ion quantum computer",
+            "link": "https://arxiv.org/abs/2106.05881"
+        },
+        "authors": ["Crystal Noel", "Pradeep Niroula", "Daiwei Zhu", "Andrew Risinger", "Laird Egan", "Debopriyo Biswas", "Marko Cetina", "Alexey V. Gorshkov", "Michael J. Gullans", "David A. Huse", "Christopher Monroe"],
+        "tags": []
+    },
+    {
+        "date": "25 Gen 2023",
+        "speaker": "Benedikt Placke",
+        "paper": {
+            "title": "Exact Quantum Algorithms for Quantum Phase Recognition: Renormalization Group and Error Correction",
+            "link": "https://arxiv.org/abs/2211.09803"
+        },
+        "authors": ["Ethan Lake", "Shankar Balasubramanian", "Soonwon Choi"],
+        "tags": []
+    },
+    {
+        "date": "18 Gen 2023",
+        "speaker": "Jiangtian Yao",
+        "paper": {
+            "title": "Holographic dynamics simulations with a trapped-ion quantum computer",
+            "link": "https://www.nature.com/articles/s41567-022-01689-7"
+        },
+        "authors": ["Eli Chertkov", "Justin Bohnet", "David Francois", "John Gaebler", "Dan Gresh", "Aaron Hankin", "Kenny Lee", "David Hayes", "Brian Neyenhuis", "Russell Stutz", "Andrew C. Potter", "Michael Foss-Feig"],
+        "tags": []
+    },
+    {
+        "date": "11 Gen 2023",
+        "speaker": "Marin Bukov",
+        "paper": {
+            "title": "Quantum gas microscopy of Kardar-Parisi-Zhang superdiffusion",
+            "link": "https://www.science.org/doi/10.1126/science.abk2397"
+        },
+        "authors": ["David Wei", "Antonio Rubio-Abadal", "Bingtian Ye", "Francisco Machado", "Jack Kemp", "Kritsana Srakaew", "Simon Hollerith", "Jun Rui", "Sarang Gopalakrishnan", "Norman Y. Yao", "Immanuel Bloch", "Johannes Zeiher"],
+        "tags": []
+    },
+    {
+        "date": "16 Dec 2022",
+        "speaker": "Pieter Claeys",
+        "paper": {
+            "title": "Quantum gas microscopy of Kardar-Parisi-Zhang superdiffusion",
+            "link": "https://www.science.org/doi/10.1126/science.abk2397"
+        },
+        "authors": ["David Wei", "Antonio Rubio-Abadal", "Bingtian Ye", "Francisco Machado", "Jack Kemp", "Kritsana Srakaew", "Simon Hollerith", "Jun Rui", "Sarang Gopalakrishnan", "Norman Y. Yao", "Immanuel Bloch", "Johannes Zeiher"],
+        "tags": []
+    },
+    {
+        "date": "14 Dec 2022",
+        "speaker": "Paul Schindler",
+        "paper": {
+            "title": "Transmon platform for quantum computing challenged by chaotic fluctuations",
+            "link": "https://www.nature.com/articles/s41467-022-29940-y"
+        },
+        "authors": ["Christoph Berke", "Evangelos Varvelis", "Simon Trebst", "Alexander Altland", "David P. DiVincenzo"],
+        "tags": []
+    },
+    {
+        "date": "07 Dec 2022",
+        "speaker": "Michael Rampp",
+        "paper": {
+            "title": "Entanglement and Absorbing-State Transitions in Interactive Quantum Dynamics",
+            "link": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.L020304"
+        },
+        "authors": ["Nicholas O'Dea", "Alan Morningstar", "Sarang Gopalakrishnan", "Vedika Khemani"],
+        "tags": ["entanglement"]
+    },
+    {
+        "date": "23 Nov 2022",
+        "speaker": "Hongzheng",
+        "paper": {
+            "title": "Characterizing a non-equilibrium phase transition on a quantum computer",
+            "link": "https://www.nature.com/articles/s41567-023-02199-w"
+        },
+        "authors": ["Eli Chertkov", "Zihan Cheng", "Andrew C. Potter", "Sarang Gopalakrishnan", "Thomas M. Gatterman", "Justin A. Gerber", "Kevin Gilmore", "Dan Gresh", "Alex Hall", "Aaron Hankin", "Mitchell Matheny", "Tanner Mengle", "David Hayes", "Brian Neyenhuis", "Russell Stutz", "Michael Foss-Feig"],
+        "tags": []
+    },
+    {
+        "date": "11 Nov 2022",
+        "speaker": "Vir Bulchandani",
+        "paper": {
+            "title": "Playing nonlocal games with phases of quantum matter",
+            "link": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045412"
+        },
+        "authors": ["Vir B. Bulchandani", "Fiona J. Burnell", "S. L. Sondhi"],
+        "tags": []
+    },
+    {
+        "date": "09 Nov 2022",
+        "speaker": "Luis",
+        "paper": {
+            "title": "Learning to predict arbitrary quantum processes",
+            "link": "https://arxiv.org/abs/2210.14894"
+        },
+        "authors": ["Jielun Chen", "E.M. Stoudenmire", "Steven R. White"],
+        "tags": []
+    },
+    {
+        "date": "26 Oct 2022",
+        "speaker": "Benedikt Placke",
+        "paper": {
+            "title": "Quantum Fourier Transform Has Small Entanglement",
+            "link": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040318"
+        },
+        "authors": ["Jielun Chen", "E.M. Stoudenmire", "Steven R. White"],
+        "tags": ["entanglement"]
+    },
+    {
+        "date": "19 Oct 2022",
+        "speaker": "Dominik Hahn",
+        "paper": {
+            "title": "To catch and reverse a quantum jump mid-flight",
+            "link": "https://www.nature.com/articles/s41586-019-1287-z"
+        },
+        "authors": ["Z. K. Minev", "S. O. Mundhada", "S. Shankar", "P. Reinhold", "R. Gutiérrez-Jáuregui", "R. J. Schoelkopf", "M. Mirrahimi", "H. J. Carmichael", "M. H. Devoret"],
+        "tags": ["quantum jumps", "experiment"]
+    }
+]
