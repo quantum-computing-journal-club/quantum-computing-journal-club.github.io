@@ -1,23 +1,22 @@
 [
     {
-        "date": "18 Sep 2024",
-        "speaker": "Marin Bukov",
-        "description" : "Part 2",
-        "paper": {
-            "title": "Quantum Error Correction with the Gottesman-Kitaev-Preskill Code",
-            "link": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020101"
-        },
-        "authors": ["Arne L. Grimsmo", "Shruti Puri"],
-        "tags": []
-    },
-    {
         "date": "25 Sep 2024",
         "speaker": "Giovanni Cemin",
         "paper": {
-            "title": "Non-stabilizerness in U(1) lattice gauge theory",
-            "link": "https://arxiv.org/pdf/2409.01789"
+            "title": "Quantifying non-stabilizerness through entanglement spectrum flatness",
+            "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.L040401"
         },
-        "authors": ["Pedro R. Nic´acio Falcao", "Poetri Sonya Tarabunga", "Martina Frau", "Emanuele Tirrito", "Jakub Zakrzewski", "Marcello Dalmonte"],
+        "authors": ["Emanuele Tirrito", "Poetri Sonya Tarabunga", "Gugliemo Lami", "Titas Chanda", "Lorenzo Leone", "Salvatore F.E. Oliviero", "Marcello Dalmonte", "Mario Collura", "Alioscia Hamma"],
         "tags": []
-    }
+    },
+    {
+        "date": "02 Sep 2024",
+        "speaker": "Jiangtian Yao",
+        "paper": {
+            "title": "tbd",
+            "link": "https://arxiv.org/"
+        },
+        "authors": [""],
+        "tags": []
+    },
 ]

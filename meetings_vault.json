@@ -1,5 +1,22 @@
 [
     {
+        "date": "18 Sep 2024",
+        "speaker": "Marin Bukov",
+        "description" : "Introduction to GKP codes: Part 2",
+        "paper": {
+            "title": "Quantum Error Correction with the Gottesman-Kitaev-Preskill Code",
+            "link": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020101"
+        },
+        "authors": ["Arne L. Grimsmo", "Shruti Puri"],
+        "tags": [],
+        "attachments": [
+            {
+                "path": "attachments/GKP-codes.pdf",
+                "name": "GKP codes notes"
+            }
+        ]
+    },
+    {
         "date": "04 Sep 2024",
         "speaker": "Marin Bukov",
         "description" : "Introduction to GKP codes.",
