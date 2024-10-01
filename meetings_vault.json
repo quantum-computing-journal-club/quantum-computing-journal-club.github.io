@@ -1,5 +1,15 @@
 [
     {
+        "date": "25 Sep 2024",
+        "speaker": "Giovanni Cemin",
+        "paper": {
+            "title": "Quantifying non-stabilizerness through entanglement spectrum flatness",
+            "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.L040401"
+        },
+        "authors": ["Emanuele Tirrito", "Poetri Sonya Tarabunga", "Gugliemo Lami", "Titas Chanda", "Lorenzo Leone", "Salvatore F.E. Oliviero", "Marcello Dalmonte", "Mario Collura", "Alioscia Hamma"],
+        "tags": []
+    },
+    {
         "date": "18 Sep 2024",
         "speaker": "Marin Bukov",
         "description" : "Introduction to GKP codes: Part 2",
@@ -32,6 +42,164 @@
                 "name": "GKP codes notes"
             }
         ]
+    },
+    {
+        "date": "24 Jul 2024",
+        "speaker": "Masud Haque",
+        "paper": {
+            "title": "Robust teleportation of a surface code and cascade of topological quantum phase transitions",
+            "link": "https://arxiv.org/abs/2403.04767"
+        },
+        "authors": ["Finn Eckstein", "Bo Han", "Simon Trebst", "Guo-Yi Zhu"],
+        "tags": []
+    },
+    {
+        "date": "17 Jul 2024",
+        "speaker": "Federico Balducci",
+        "paper": {
+            "title": "Quantum and classical coarsening and their interplay with the Kibble-Zurek mechanism",
+            "link": "https://arxiv.org/abs/2401.15144"
+        },
+        "authors": ["Rhine Samajdar", "David A. Huse"],
+        "paper_2": {
+            "title": "Quantum coarsening and collective dynamics on a programmable quantum simulator",
+            "link": "https://arxiv.org/abs/2407.03249"
+        },
+        "authors_2": ["Tom Manovitz", "Sophie H. Li", "Sepehr Ebadi", "Rhine Samajdar", "Alexandra A. Geim", "Simon J. Evered", "Dolev Bluvstein", "Hengyun Zhou", "Nazli Uğur Köylüoğlu", "Johannes Feldmeier", "Pavel E. Dolgirev", "Nishad Maskara", "Marcin Kalinowski", "Subir Sachdev", "David A. Huse", "Markus Greiner", "Vladan Vuletić", "Mikhail D. Lukin"],
+        "tags": []
+    },
+    {
+        "date": "03 Jul 2024",
+        "speaker": "Yubo Shi",
+        "paper": {
+            "title": "Entanglement and absorbing-state transitions in interactive quantum dynamics",
+            "link": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.L020304"
+        },
+        "authors": ["Nicholas O'Dea", "Alan Morningstar", "Sarang Gopalakrishnan", "Vedika Khemani"],
+        "tags": []
+    },
+    {
+        "date": "19 Jun 2024",
+        "speaker": "Gurkirat Singh",
+        "description" : "Part 2",
+        "paper": {
+            "title": "Dynamically Generated Logical Qubits",
+            "link": "https://quantum-journal.org/papers/q-2021-10-19-564/"
+        },
+        "authors": ["Matthew B. Hastings", "Jeongwan Haah"],
+        "tags": []
+    },
+    {
+        "date": "12 Jun 2024",
+        "speaker": "Gurkirat Singh",
+        "description" : "Part 1",
+        "paper": {
+            "title": "Dynamically Generated Logical Qubits",
+            "link": "https://quantum-journal.org/papers/q-2021-10-19-564/"
+        },
+        "authors": ["Matthew B. Hastings", "Jeongwan Haah"],
+        "tags": []
+    },
+    {
+        "date": "15 May 2024",
+        "speaker": "Dominik Hahn",
+        "paper": {
+            "title": "Universal fluctuations and noise learning from Hilbert-space ergodicity",
+            "link": "https://arxiv.org/abs/2403.11971"
+        },
+        "authors": ["Adam L. Shaw", "Daniel K. Mark", "Joonhee Choi", "Ran Finkelstein", "Pascal Scholl", "Soonwon Choi", "Manuel Endres"],
+        "tags": []
+    },
+    {
+        "date": "08 May 2024",
+        "speaker": "Patrick Lenggenhager",
+        "paper": {
+            "title": "Emergent Holographic Forces from Tensor Networks and Criticality",
+            "link": "https://arxiv.org/abs/2401.13595"
+        },
+        "authors": ["Rahul Sahay", "Mikhail D. Lukin", "Jordan Cotler"],
+        "tags": []
+    },
+    {
+        "date": "24 Apr 2024",
+        "speaker": "James Walkling",
+        "description" : "",
+        "paper": {
+            "title": "Counterdiabaticity and the quantum approximate optimization algorithm",
+            "link": "https://quantum-journal.org/papers/q-2022-01-27-635/"
+        },
+        "authors": ["Jonathan Wurtz", "Peter J. Love"],
+        "tags": []
+    },
+    {
+        "date": "03 Apr 2024",
+        "speaker": "Chris Hooley",
+        "paper": {
+            "title": "Simulating 2D lattice gauge theories on a qudit quantum computer",
+            "link": "https://inspirehep.net/literature/2712286"
+        },
+        "authors": ["Michael Meth", "Jan F. Haase", "Jinglei Zhang", "Claire Edmunds", "Lukas Postler", "Alex Steiner", "Andrew J. Jena", "Luca Dellantonio", "Rainer Blatt", "Peter Zoller", "Thomas Monz", "Philipp Schindler", "Christine Muschik", "Martin Ringbauer"],
+        "tags": []
+    },
+    {
+        "date": "27 Mar 2024",
+        "speaker": "Paul Schindler",
+        "paper": {
+            "title": "Fault-Tolerant Quantum Memory using Low-Depth Random Circuit Codes",
+            "link": "https://arxiv.org/abs/2311.17985"
+        },
+        "authors": ["Jon Nelson", "Gregory Bentsen", "Steven T. Flammia", "Michael J. Gullans"],
+        "tags": []
+    },
+    {
+        "date": "06 Mar 2024",
+        "speaker": "Wouter Buijsman",
+        "paper": {
+            "title": "Random-matrix models of monitored quantum circuits",
+            "link": "https://arxiv.org/abs/2312.09216"
+        },
+        "authors": ["Vir B. Bulchandani", "S. L. Sondhi", "J. T. Chalker"],
+        "tags": []
+    },
+    {
+        "date": "28 Feb 2024",
+        "speaker": "Giovanni Cemin",
+        "paper": {
+            "title": "Nonstabilizerness via matrix product states in the Pauli basis",
+            "link": "https://arxiv.org/abs/2401.16498"
+        },
+        "authors": ["Poetri Sonya Tarabunga", "Emanuele Tirrito", "Mari Carmen Bañuls", "Marcello Dalmonte"],
+        "tags": []
+    },
+    {
+        "date": "21 Feb 2024",
+        "speaker": "Luis",
+        "paper": {
+            "title": "Accurate optimal quantum error correction thresholds from coherent information",
+            "link": "https://arxiv.org/abs/2312.06664"
+        },
+        "authors": ["Luis Colmenarez", "Ze-Min Huang", "Sebastian Diehl", "Markus Müller"],
+        "tags": []
+    },
+    {
+        "date": "14 Feb 2024",
+        "speaker": "Dominik Hahn",
+        "paper": {
+            "title": "Logical quantum processor based on reconfigurable atom arrays",
+            "link": "https://arxiv.org/abs/2312.03982"
+        },
+        "authors": ["Dolev Bluvstein", "Simon J. Evered", "Alexandra A. Geim", "Sophie H. Li", "Hengyun Zhou", "Tom Manovitz", "Sepehr Ebadi", "Madelyn Cain", "Marcin Kalinowski", "Dominik Hangleiter", "J. Pablo Bonilla Ataides", "Nishad Maskara", "Iris Cong", "Xun Gao", "Pedro Sales Rodriguez", "Thomas Karolyshyn", "Giulia Semeghini", "Michael J. Gullans", "Markus Greiner", "Vladan Vuletic", "Mikhail D. Lukin"],
+        "tags": []
+    },
+    {
+        "date": "10 Jan 2024",
+        "speaker": "Chris Hooley",
+        "paper": {
+            "title": "Exploring Large-Scale Entanglement in Quantum Simulation",
+            "link": "https://arxiv.org/abs/2306.00057"
+        },
+        "authors": ["Manoj K. Joshi", "Christian Kokail", "Rick van Bijnen", "Florian Kranzl", "Torsten V. Zache", "Rainer Blatt", "Christian F. Roos", "Peter Zoller"],
+        "tags": []
     },
     {
         "date": "12 Apr 2023",

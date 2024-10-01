@@ -83,7 +83,7 @@ fetch('meetings_vault.json?' + new Date().getTime())
             // Append the description if it exists
             if (meeting.description) {
                 const descriptionPara = document.createElement('p');
-                descriptionPara.textContent = meeting.description;
+                descriptionPara.innerHTML = meeting.description;
                 li.appendChild(descriptionPara);
             }
 
@@ -99,6 +99,18 @@ fetch('meetings_vault.json?' + new Date().getTime())
             const authorsItem = document.createElement('li');
             authorsItem.innerHTML = `<span class="label">Authors:</span> ${meeting.authors.join(', ')}`;
             sublist.appendChild(authorsItem);
+
+            // Additional paper entry
+            if (meeting.paper_2) {
+                const paper2Item = document.createElement('li');
+                paper2Item.innerHTML = `<span class="label">Paper:</span> <a href="${meeting.paper_2.link}" target="_blank">${meeting.paper_2.title}</a>`;
+                sublist.appendChild(paper2Item);
+
+                // and authors entry
+                const authors2Item = document.createElement('li');
+                authors2Item.innerHTML = `<span class="label">Authors:</span> ${meeting.authors_2.join(', ')}`;
+                sublist.appendChild(authors2Item);
+            }
 
             // Tags entry (only show if present)
             if (meeting.tags && meeting.tags.length > 0) {

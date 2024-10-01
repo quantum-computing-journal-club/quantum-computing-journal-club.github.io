@@ -1,22 +1,12 @@
 [
     {
-        "date": "25 Sep 2024",
-        "speaker": "Giovanni Cemin",
-        "paper": {
-            "title": "Quantifying non-stabilizerness through entanglement spectrum flatness",
-            "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.L040401"
-        },
-        "authors": ["Emanuele Tirrito", "Poetri Sonya Tarabunga", "Gugliemo Lami", "Titas Chanda", "Lorenzo Leone", "Salvatore F.E. Oliviero", "Marcello Dalmonte", "Mario Collura", "Alioscia Hamma"],
-        "tags": []
-    },
-    {
         "date": "02 Sep 2024",
         "speaker": "Jiangtian Yao",
         "paper": {
-            "title": "tbd",
-            "link": "https://arxiv.org/"
+            "title": "Entanglement spectrum of matchgate circuits with universal and non-universal resources",
+            "link": "https://arxiv.org/abs/2312.08447"
         },
-        "authors": [""],
+        "authors": ["Andrew M. Projansky", "Joshuah T. Heath", "James D. Whitfield"],
         "tags": []
     }
 ]
