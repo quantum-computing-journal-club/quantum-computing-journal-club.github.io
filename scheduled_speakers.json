@@ -1,12 +1,12 @@
 [
     {
-        "date": "02 Sep 2024",
-        "speaker": "Jiangtian Yao",
+        "date": "08 Sep 2024",
+        "speaker": "Hans Singh",
         "paper": {
-            "title": "Entanglement spectrum of matchgate circuits with universal and non-universal resources",
-            "link": "https://arxiv.org/abs/2312.08447"
+            "title": "Tradeoffs for Reliable Quantum Information Storage in 2D Systems",
+            "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.104.050503"
         },
-        "authors": ["Andrew M. Projansky", "Joshuah T. Heath", "James D. Whitfield"],
+        "authors": ["Sergey Bravyi", "David Poulin", "Barbara Terhal"],
         "tags": []
     }
 ]
