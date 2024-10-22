@@ -1,5 +1,15 @@
 [
     {
+        "date": "08 Sep 2024",
+        "speaker": "Hans Singh",
+        "paper": {
+            "title": "Tradeoffs for Reliable Quantum Information Storage in 2D Systems",
+            "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.104.050503"
+        },
+        "authors": ["Sergey Bravyi", "David Poulin", "Barbara Terhal"],
+        "tags": []
+    },
+    {
         "date": "02 Sep 2024",
         "speaker": "Jiangtian Yao",
         "paper": {

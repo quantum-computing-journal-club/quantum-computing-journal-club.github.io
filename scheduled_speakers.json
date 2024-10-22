@@ -1,12 +1,12 @@
 [
     {
-        "date": "08 Sep 2024",
-        "speaker": "Hans Singh",
+        "date": "23 Sep 2024",
+        "speaker": "Zhi-Feng Zhang",
         "paper": {
-            "title": "Tradeoffs for Reliable Quantum Information Storage in 2D Systems",
-            "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.104.050503"
+            "title": "Extracting Topological Orders of Generalized Pauli Stabilizer Codes in Two Dimensions",
+            "link": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.030328"
         },
-        "authors": ["Sergey Bravyi", "David Poulin", "Barbara Terhal"],
+        "authors": ["Zijian Liang", "Yijia Xu", "Joseph T. Iosue", "Yu-An Chen"],
         "tags": []
     }
 ]
